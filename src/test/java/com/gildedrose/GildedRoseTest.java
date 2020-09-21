@@ -28,7 +28,7 @@ class GildedRoseTest {
 
     @Disabled
     @Test
-    void test3(){
+    void descriptive3(){
         Item[] items = new Item[] { new Item("Aged Brie", 10, 41) };
         GildedRose app = new GildedRose(items);
         nDaysPassed(app,10);
